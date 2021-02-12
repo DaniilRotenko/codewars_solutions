@@ -1,0 +1,14 @@
+#https://www.codewars.com/kata/5296455e4fe0cdf2e000059f
+def calculate(n, op, n2):
+    if op == "/" and n2 == 0:
+        return None
+    if op == "*":
+        return n * n2
+    elif op == "-":
+        return n - n2
+    elif op == "+":
+        return n + n2
+    elif op == "/":
+        return n / n2
+    else:
+        return None
